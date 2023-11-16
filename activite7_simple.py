@@ -11,8 +11,8 @@ def tire(nums, nbr_tirage):
         nums_tour.remove(b_tire[-1])
     return b_tire
 
-def tire_loto(): tire(nums_loto, 7)
+def tire_loto(): return tire(nums_loto, 7)
 
 if __name__ == "__main__":
-    print(tire(nums_loto, 7))
-    print(tire(nums_loto, 7))
+    print(tire_loto())
+    print(tire_loto())
