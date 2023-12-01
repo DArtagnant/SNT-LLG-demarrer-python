@@ -16,10 +16,12 @@ def rectangle(long, larg):
 rectangle(100, 80)
 saut(20, 0)
 rectangle(20, 40)
-saut(70, 50)    
+saut(70, 50)
 circle(10)
 saut(0, 80)
 goto(50, 130)
 goto(100, 80)
 saut(0, 0)
+
+
 input()
