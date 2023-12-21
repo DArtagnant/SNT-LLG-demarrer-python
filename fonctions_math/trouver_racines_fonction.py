@@ -44,6 +44,6 @@ class Function2degree:
         print("solution 0", self.solution_0())
 
 if __name__ == "__main__":
-    f = Function2degree(1, 1, -12)
+    f = Function2degree(0, 0, 0)
     print(f)
     print("solution :", f.solutions())
